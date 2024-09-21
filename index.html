@@ -3,24 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>G. Dinesh's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Login</button>
-        </form>
-        <p id="message"></p>
-    </div>
+    <header>
+        <h1>G. Dinesh</h1>
+        <p>Aspiring Electrical Engineer with a Passion for Software Solutions</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <script src="script.js"></script>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a first-year EEE student at Gayatri Vidyaparshid College.</p>
+        <p>Strengths: Self-confidence, honesty, service to people.</p>
+        <p>Weaknesses: Working on developing patience and overcoming exam anxiety.</p>
+        <p>Goal: To secure a high-paying job in the software sector of Electrical Engineering.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Dynamo Project</h3>
+            <p>A brief description of your dynamo project from class 12.</p>
+            <p>Technologies used: [List your technologies here]</p>
+            <!-- You can add images if you have any -->
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: [Your languages]</li>
+            <li>Software Tools: [Your tools]</li>
+            <li>Soft Skills: Communication, teamwork</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>[Any relevant achievement or certification]</li>
+            <li>[Extracurricular activities]</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your_email@example.com</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 G. Dinesh</p>
+    </footer>
 </body>
 </html>
